@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #062727;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: gray;
+    text-align: center;
+
+
+}
+.box h1{
+    color: thistle;
+    font-style: normal;
+}
+
+.box input[type ="text"],.box input[type ="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0f5f64;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    
+
+}
+.box input[type ="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0f5f64;
+    padding:14px 10px;
+    width:200px;
+    outline:none;
+    color:white;
+    border-radius:24px;
+    
+
+
+
+}
+.social-menu ul {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, 50%);
+    display: flex;
+}
+.social-menu ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+.social-menu ul li .fa{
+    font-size: 40px;
+    line-height: 60px;
+    color #000;
+}
